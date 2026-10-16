@@ -1,0 +1,16 @@
+{
+  "name": "guess-the-object",
+  "version": "1.0.0",
+  "description": "Party web game: knowers hold secret objects, everyone else asks questions and guesses.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/engine.test.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
